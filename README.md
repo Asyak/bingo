@@ -27,14 +27,15 @@ There is a Test project added.
 
 Created files organised as follows:
 
-MasterPages folder => contains From.Master, specific Master Page. 
-SpecificPages folder => contains content pages:
-	1. Home.aspx page - start  page, run it to play the game.
-	2. Gameover.aspx page - this  page is displayed when you have played your turn. 
-	3. Error.aspx page - this page is displayed is case of error.
-	4. Songs.cs - Defines Song object, its properties and methods.
-Images folder => Images specific to this project.
-CustomCss folder => custom-styles.css Related stylesheet.
+1.MasterPages folder => contains From.Master, specific Master Page. 
+2.SpecificPages folder => contains content pages:
+	a. Home.aspx page - start  page, run it to play the game.
+	b. Gameover.aspx page - this  page is displayed when you have played your turn. 
+	c. Error.aspx page - this page is displayed is case of error.
+	d. Songs.cs - Defines Song object, its properties and methods.
+4.Images folder => Images specific to this project.
+5. CustomCss folder => custom-styles.css Related stylesheet.
+6. fonts -> Alegreya_Sans & Libre_Franklin
 
 All other folders and files were automatically generated. 
 
