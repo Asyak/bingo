@@ -36,7 +36,7 @@ SpecificPages folder => contains content pages:
 Images folder => Images specific to this project.
 CustomCss folder => custom-styles.css Related stylesheet.
 
-All other folders and file were automatically generated. 
+All other folders and files were automatically generated. 
 
 
 *** Tests ***
