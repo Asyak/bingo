@@ -1,0 +1,168 @@
+﻿body {
+    background-color: #e8edf3;
+    height: 100vh;
+    font-family: Libre-Franklin;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 15px;
+    color: #b56969;
+    font-family: Alegreya-Sans;
+    font-size: 47px;
+}
+
+h4, h5 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-style: italic;
+    
+}
+
+h4.text-center {
+   color: #22264b;
+}
+
+.navbar {
+    height: 100px !important;
+}
+
+.navbar img {
+    max-height: 70px;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.row {
+    width: 100%;
+}
+
+.navbar > .row {
+    margin: 0 !important;
+}
+
+.navbar-brand > span {
+    margin-left: 7px;
+}
+
+.title-div {
+    margin-bottom: 10px;
+}
+
+.score-half {
+    background-color: #e6cf8b;
+}
+
+.play-half {
+    background-color: #22264b;
+    display: flex;
+}
+
+.play-half a {
+    color: #ffffff !important;
+    padding-left: 10px;
+    line-height: 60px;
+}
+
+
+.score-half a {
+        float: right;
+        padding-left: 40px;
+        line-height: 60px;
+        color: #22264b;
+}
+
+.content-container {
+    padding-top: 30px;
+}
+
+.btn-success {
+    background-color: #22264b !important;
+    border-color: #22264b !important;
+    float: right;
+    padding: 8px 24px;
+    max-width: 150px;
+}
+
+.radio-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-container label {
+        margin-left: 10px;
+        color: #22264b;
+        font-size: 19px;
+}
+
+
+.image-container {
+    margin: 30px auto;
+    width: 300px;
+    height: 300px;
+    background-color: #22264b;
+    border-radius: 50%;
+    padding: 60px 20px;
+}
+
+.image-container img {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.error-panel .image-container {
+    background-color: transparent;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.center-text .btn-success {
+    float: inherit;
+}
+
+    @media (max-width: 575px) {
+        .score-half a {
+            line-height: normal !important;
+        }
+
+        .play-half a {
+            line-height: normal !important;
+        }
+
+        .navbar img {
+            max-height: 35px;
+            padding-left: 10px;
+        }
+    }
+
+    @media (min-width: 576px) {
+
+        .radio-container {
+            padding-top: 50px;
+        }
+
+            .radio-container > div {
+                margin-bottom: 20px;
+            }
+    }
+
+
+    @font-face {
+        font-family: Alegreya-Sans;
+        src: url("/Fonts/Alegreya_Sans/AlegreyaSans-Light.ttf");
+    }
+
+    @font-face {
+        font-family: Libre-Franklin;
+        src: url("/Fonts/Libre_Franklin/LibreFranklin-Light.ttf");
+    }
